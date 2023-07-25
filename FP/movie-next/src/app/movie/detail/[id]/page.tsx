@@ -19,6 +19,6 @@ export default function Page({ params }: { params: { id: number } }) {
           });
       }, [params]);
     return (
-        <div>{params.id}번 : {movieDetail.title} </div>
+        <div>{params.id}번  </div>
     )
   }
